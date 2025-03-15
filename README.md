@@ -6,6 +6,9 @@
 
 ## Tech Stack
 
+- Frontend: React.js, Tailwind CSS
+- Deployment: Vercel
+
 ## Live Page
 
 live-page-link:

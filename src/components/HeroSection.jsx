@@ -13,7 +13,10 @@ function HeroSection() {
       <p className="relative mt-4 text-lg drop-shadow-md max-w-xl animate-fade-in">
         Pure, organic, and refreshing
       </p>
-      <button className="mt-6 px-10 py-4 bg-yellow-500 text-green-900 font-semibold rounded-full shadow-lg transition-transform transform">
+      <button
+        className="mt-6 px-10 py-4 bg-yellow-500 text-green-900 font-semibold rounded-full shadow-lg transition-transform transform cursor-pointer"
+        onClick={(e) => e.preventDefault()}
+      >
         Shop Now
       </button>
     </header>
