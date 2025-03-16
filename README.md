@@ -19,7 +19,7 @@ A simple and elegant Tea Landing Page built with React and Tailwind CSS. It incl
 
 ## Live Page
 
-live-page-link:
+live-page-link: https://tea-landing-page-opal.vercel.app
 
 ## License
 
