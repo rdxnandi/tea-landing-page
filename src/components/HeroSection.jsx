@@ -5,7 +5,12 @@ function HeroSection() {
   return (
     <header className="bg-gradient-to-r from-green-700 to-green-900 text-white py-40 text-center flex flex-col items-center justify-center shadow-xl rounded-b-3xl relative overflow-hidden">
       <div className="absolute inset-0 bg-cover bg-center opacity-40">
-        <img src={tea_image} alt="Tea" className="w-full h-full object-cover" />
+        <img
+          src={tea_image}
+          alt="Tea"
+          className="w-full h-full object-cover"
+          loading="eager"
+        />
       </div>
       <h1 className="text-6xl font-extrabold drop-shadow-lg animate-pulse">
         Discover the Finest Tea
